@@ -6,6 +6,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
+	<!-- Corre con tomcat 7 y postgres -->
+
 	<build>
 		<finalName>uaiContacts</finalName>
 		<plugins>
