@@ -10,4 +10,15 @@
     </definition>
 
 
+
+    <definition name="welcomePage" extends="master.page">
+        <put-attribute name="body" value="/protected/welcomePage.jsp"/>
+    </definition>
+    
+   
+    <definition name="login" extends="master.page">
+        <put-attribute name="header" value=""/>
+        <put-attribute name="footer" value=""/>
+        <put-attribute name="body" value="/public/login.jsp"/>
+    </definition>
 </tiles-definitions>
